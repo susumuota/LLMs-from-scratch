@@ -24,7 +24,7 @@ RUN echo 'eval "$(uvx --generate-shell-completion bash)"' >> /root/.bashrc
 
 # (1) uv pip install with requirements.txt
 # COPY requirements.txt requirements.txt
-# RUN uv pip install --system --no-cache -r requirements.txt
+# RUN uv pip install -r requirements.txt
 
 # (2) uv sync with uv.lock
 # COPY . .
